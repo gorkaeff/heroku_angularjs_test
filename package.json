@@ -1,0 +1,13 @@
+{
+  "name": "heroku-angularjs",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4 with AngularJS & Heroku",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "license": "MIT"
+}
