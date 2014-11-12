@@ -1,0 +1,8 @@
+<div class="masthead clearfix">
+	<div class="inner">
+		<h3 class="masthead-brand">MyG Apps</h3>
+		<ul class="nav masthead-nav">
+			<li ng-repeat="item in menu" ng-class="{active : isSelected(item.order)}"><a href="{{item.link}}" ng-click="tabSelected(item.order);">{{item.title}}</a></li>
+		</ul>
+	</div>
+</div>
