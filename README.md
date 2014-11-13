@@ -1,23 +1,23 @@
 heroku_angularjs_test
 =====================
 
-Create an heroku angularjs application.
+<p>Create an heroku angularjs application.</p>
 
-STEPS TO CLONE REPO AND RUN IN LOCALHOST:
+<p>STEPS TO CLONE REPO AND RUN IN LOCALHOST:</p>
 
-$ git clone https://github.com/gorkaeff/heroku_angularjs_test.git
-$ cd heroku_angularjs_test
-$ npm install
-$ npm start
+<p>$ git clone https://github.com/gorkaeff/heroku_angularjs_test.git</p>
+<p>$ cd heroku_angularjs_test</p>
+<p>$ npm install</p>
+<p>$ npm start</p>
 
-AngularJS examplea app should now be running on [localhost:5000](http://localhost:5000/).
+<p>AngularJS examplea app should now be running on [localhost:5000](http://localhost:5000/).</p>
 
-STEPS TO DEPLOY THIS EXAMPLE IN HEROKU:
-In the same folder...
+<p>STEPS TO DEPLOY THIS EXAMPLE IN HEROKU:</p>
+<p>In the same folder...</p>
 
-$ heroku create
-$ git push heroku master
-$ heroku open
+<p>$ heroku create</p>
+<p>$ git push heroku master</p>
+<p>$ heroku open</p>
 
 
 
