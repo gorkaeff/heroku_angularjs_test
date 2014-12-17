@@ -11,8 +11,9 @@ angular.module('myApp.general', ['ngRoute'])
 .controller('HeaderCtrl', function ($scope, $log) {
 	$scope.tab = 1;
 	$scope.menu = [
-		{title : "Inicio", link: "#/index", order: 1},
-		{title : "About", link: "#/about", order: 2},
+		{title : "Home", link: "#/home", order: 1},
+		{title : "Projects", link: "#/projects", order: 2},
+		{title : "About Us", link: "#/about", order: 3}
 	];
 
 	$scope.isSelected = function (tab){
