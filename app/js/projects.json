@@ -19,6 +19,15 @@
 			"urlAndroid" : "",
 			"urlApple" : "",
 			"icon" : "" 
+		},
+		{
+			"id" : 3,
+			"title" : "NumberGuess",
+			"shortDesc" : "Truco que adivina un número que piensas entre el 1 el 100",
+			"fullDesc" : "",
+			"urlAndroid" : "",
+			"urlApple" : "",
+			"icon" : "" 
 		}
 	]
 }
