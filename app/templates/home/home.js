@@ -10,5 +10,5 @@ angular.module('myApp.home', ['ngRoute'])
 }])
 
 .controller('HomeCtrl', function ($scope) {
-	$scope.mainMessage = "Página de inicio";
+	
 });

@@ -1,2 +1,9 @@
-<h1 class="cover-heading">Project list.</h1>
-<p class="lead">{{projects}}</p>
+<h1 class="cover-heading">Listado de proyectos</h1>
+<div class="row">
+	<div class="col-lg-4" ng-repeat="p in projects">
+		<img class="img-circle" src="{{p.icon}}" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+		<h2>{{p.title}}</h2>
+		<p>{{p.shortDesc}}</p>
+		<p><a class="btn btn-default" href="#" role="button">Ver detalles &raquo;</a></p>
+	</div>
+</div>

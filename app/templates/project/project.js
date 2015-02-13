@@ -9,6 +9,9 @@ angular.module('myApp.project', ['ngRoute'])
   });
 }])
 
-.controller('ProjectCtrl', function ($scope) {
-	$scope.projects = "Our projects...";
+.controller('ProjectCtrl', function ($scope, ProjectService) {
+	$scope.projects = [];
+	ProjectService.getProjectsList().success(function (res){
+		$scope.projects = res.projects;
+	})
 });

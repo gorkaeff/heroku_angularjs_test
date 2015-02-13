@@ -11,9 +11,9 @@ angular.module('myApp.general', ['ngRoute'])
 .controller('HeaderCtrl', function ($scope, $log) {
 	$scope.tab = 1;
 	$scope.menu = [
-		{title : "Home", link: "#/home", order: 1},
-		{title : "Projects", link: "#/projects", order: 2},
-		{title : "About Us", link: "#/about", order: 3}
+		{title : "Inicio", link: "#/home", order: 1},
+		{title : "Proyectos", link: "#/projects", order: 2},
+		{title : "Contacto", link: "#/about", order: 3}
 	];
 
 	$scope.isSelected = function (tab){
@@ -35,6 +35,5 @@ angular.module('myApp.general', ['ngRoute'])
 	};
 })
 .controller('FooterCtrl', function ($scope) {
-	$scope.linkBootstrap = "http://getbootstrap.com";
-	$scope.linkTwitter = "https://twitter.com/gorkajusue";
+	
 });
