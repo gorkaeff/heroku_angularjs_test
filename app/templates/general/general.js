@@ -8,12 +8,13 @@ angular.module('myApp.general', ['ngRoute'])
     	templateUrl: 'templates/general/header.html'
 	};
 })
-.controller('HeaderCtrl', function ($scope, $log) {
+.controller('HeaderCtrl', function ($scope, $log, $translate) {
+	$scope.spanish = navigator.language.substring(0,2) == "es" ? true : false;
 	$scope.tab = 1;
 	$scope.menu = [
-		{title : "Inicio", link: "#/home", order: 1},
-		{title : "Proyectos", link: "#/projects", order: 2},
-		{title : "Contacto", link: "#/about", order: 3}
+		{title : "menu.home", link: "#/home", order: 1},
+		{title : "menu.projects", link: "#/projects", order: 2},
+		{title : "menu.contact", link: "#/about", order: 3}
 	];
 
 	$scope.isSelected = function (tab){
@@ -27,6 +28,11 @@ angular.module('myApp.general', ['ngRoute'])
 	$scope.tabSelected = function (selected){
 		$scope.tab = selected;
 	};
+
+	$scope.changeLang = function (lang){
+		$scope.spanish = lang == "es" ? true : false;
+		$translate.use(lang);
+	}
 })
 .directive('footerTemplate', function () {
 	return {

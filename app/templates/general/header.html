@@ -1,8 +1,12 @@
 <div class="masthead clearfix">
 	<div class="inner">
-		<h3 class="masthead-brand">MyG Apps</h3>
+		<h3 class="masthead-brand"><a href="#/home">{{'general.app' | translate}}</a></h3>
 		<ul class="nav masthead-nav">
-			<li ng-repeat="item in menu" ng-class="{active : isSelected(item.order)}"><a href="{{item.link}}" ng-click="tabSelected(item.order);">{{item.title}}</a></li>
+			<li ng-repeat="item in menu" ng-class="{active : isSelected(item.order)}"><a href="{{item.link}}" ng-click="tabSelected(item.order);" translate>{{item.title}}</a></li>
+			<li>
+				<img ng-src="img/lang_es.png" ng-click="changeLang('es')" title="Ver web en español" ng-show="!spanish"></img>
+				<img ng-src="img/lang_en.png" ng-click="changeLang('en')" title="Translate to English" ng-show="spanish"></img>
+			</li>
 		</ul>
 	</div>
 </div>

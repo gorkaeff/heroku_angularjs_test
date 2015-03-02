@@ -1,0 +1,10 @@
+{
+	"general" : {
+		"app" : "MyG Apps"
+	},
+	"menu" : {
+		"home" : "Inicio",
+		"projects" : "Proyectos",
+		"contact" : "Contacto"
+	}
+}

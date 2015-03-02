@@ -97,6 +97,18 @@ body {
   border-bottom-color: #fff;
 }
 
+.imgProject{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.imgProjectMini{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
