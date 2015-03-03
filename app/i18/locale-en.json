@@ -6,5 +6,15 @@
 		"home" : "Home",
 		"projects" : "Projects",
 		"contact" : "About Us"
+	},
+	"home" : {
+		"need_project" : "Do you want an application mobile?",
+		"btn_see_projects" : "See projects"
+	},
+	"projects" : {
+		"btn_see_details" : "See more"
+	},
+	"about" : {
+
 	}
 }

@@ -109,6 +109,11 @@ body {
   border-radius: 50px;
 }
 
+.imgProjectMini:hover{
+  cursor: pointer;
+  border: 2px solid;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;

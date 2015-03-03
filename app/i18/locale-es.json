@@ -6,5 +6,15 @@
 		"home" : "Inicio",
 		"projects" : "Proyectos",
 		"contact" : "Contacto"
+	},
+	"home" : {
+		"need_project" : "¿Quieres realizar un proyecto multiplataforma?",
+		"btn_see_projects" : "Ver proyectos"
+	},
+	"projects" : {
+		"btn_see_details" : "Ver más"
+	},
+	"about" : {
+
 	}
 }

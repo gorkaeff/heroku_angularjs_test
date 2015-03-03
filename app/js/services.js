@@ -4,7 +4,7 @@ angular.module('myApp.services', [])
 	var projects = [
 			{
 				"id" : 0,
-				"title" : "NavarraFútbolClic",
+				"title" : "NavarraFutbolClic",
 				"shortDesc" : "Resultados y clasificación del fútbol navarro",
 				"fullDesc" : "En nuestra aplicación encontrarás información del fútbol navarro en tiempo real. Visualiza los resultados de tu equipo de una forma cómoda y rápida.También encontrarás toda la información de cada equipo:- Plantilla y estadísticas de cada jugador - Sancionados - Lesionados - Próximo arbitro - Próximo rival - Datos de interés (Localización del campo, web, presidente, socios....) Y además de todo esto, también podrás ver las noticias de navarrafutbolclic, las crónicas de los partidos y las  estadísticas de máximos goleadores, mejores porteros, tarjetas, minutos jugados....",
 				"urlAndroid" : "https://play.google.com/store/apps/details?id=com.ionicframework.navarrafutbolclic105680",
