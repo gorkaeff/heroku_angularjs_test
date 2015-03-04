@@ -15,6 +15,7 @@
 		"btn_see_details" : "See more"
 	},
 	"about" : {
-		"us" : "About Us"
+		"us" : "About Us",
+		"slogan" : "If you are interested to contact with us, send e-mail to"
 	}
 }
