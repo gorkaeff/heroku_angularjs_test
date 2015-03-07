@@ -9,7 +9,8 @@
 	},
 	"home" : {
 		"need_project" : "¿Quieres realizar un proyecto multiplataforma?",
-		"btn_see_projects" : "Ver proyectos"
+		"btn_see_projects" : "Ver proyectos",
+		"message_projects" : "Visita nuestros proyectos multiplataforma y cuéntenos su propuesta sin compromiso"
 	},
 	"projects" : {
 		"btn_see_details" : "Ver más"

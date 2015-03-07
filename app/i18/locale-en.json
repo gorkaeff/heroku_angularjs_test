@@ -9,7 +9,8 @@
 	},
 	"home" : {
 		"need_project" : "Do you want an application mobile?",
-		"btn_see_projects" : "See projects"
+		"btn_see_projects" : "See projects",
+		"message_projects" : "Visit our mobile projects and tell us your idea"
 	},
 	"projects" : {
 		"btn_see_details" : "See more"
