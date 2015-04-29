@@ -2,7 +2,7 @@
 	<div class="col-lg-4" ng-repeat="p in projects">
 		<img class="img-circle" src="{{p.icon}}" alt="{{p.title}}" title="{{p.title}}" style="width: 140px; height: 140px;">
 		<h2>{{p.title}}</h2>
-		<p>{{p.shortDesc}}</p>
+		<p translate>{{p.shortDesc}}</p>
 		<p><a class="btn btn-default" href="#/project/{{p.id}}" role="button">{{'projects.btn_see_details' | translate}} &raquo;</a></p>
 	</div>
 </div>

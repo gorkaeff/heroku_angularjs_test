@@ -18,5 +18,21 @@
 	"about" : {
 		"us" : "About Us",
 		"slogan" : "If you are interested to contact with us, send e-mail to"
+	},
+	"nfc" : {
+		"shortDesc" : "Navarre Football scoreboard and ranking",
+		"fullDesc" : "In our app you will find all Navarre football information. See your team scoreboard and lot of details about your prefer team.:- Stats about team players - Sanctioned - Injured - Next referee - Next match - Interesting data... and besides all this, you will read news about the blog and match resume..."
+	},
+	"futsal" : {
+		"shortDesc" : "Navarre female futsal scoreboard and ranking",
+		"fullDesc" : "Your application to track the female youth football player living longer be coach, referee or amateur. Here you will find both the results and the classification. You can also see the players for each team with photos. There is also a news section where the most important messages of this league will be found."
+	},
+	"number" : {
+		"shortDesc" : "A trick that I guess you think number from 1 to 100",
+		"fullDesc" : "Numberguess is an old trick to share with your friends and guess the number you are thinking.With few simple steps after passing through several screens guess the magic number between 1 and 100. Enjoy!"
+	},
+	"flip" : {
+		"shortDesc" : "Put the board with the same color",
+		"fullDesc" : "The objective is to put the entire board the same color. To do this you must click a box and it will change color to white or white to color, but in doing so, top, bottom, left and right will change."
 	}
 }
